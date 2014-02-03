@@ -1,0 +1,37 @@
+{
+  "name": "gulp-batch-replace",
+  "version": "0.0.0",
+  "description": "A batch string/regexp replace plugin for gulp",
+  "main": "index.js",
+  "dependencies": {
+    "event-stream": "latest"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.15.1",
+    "gulp-util":"latest"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Metrime/gulp-batch-replace.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "batch",
+    "string",
+    "regexp",
+    "replace",
+    "multiple"
+  ],
+  "author": "Michael Ostermann <metrime@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Metrime/gulp-batch-replace/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
